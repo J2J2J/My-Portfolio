@@ -1,0 +1,92 @@
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: gold;  
+    margin: 0;
+    display: inline;
+  }  
+
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer a {
+    color: #024e76;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    position: relative;
+    width: 59%;    
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    color: rgb(200, 97, 97);
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    transition: 1s ease;
+    
+    
+  }
